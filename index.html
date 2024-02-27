@@ -10,7 +10,7 @@
 <body class="bg-primary">
     <!--LOGIN PAGE--> 
     <div id="background-opacity-login-page" class="container mt-5 d-flex flex-column justify-content-center align-items-center bg-primary">
-        <img src="./Assets/ChwirkActualLogo.png" alt="Chwirk Logo" class="img-fluid">
+        <img src="./Assets/Chwirk Logo.png" alt="Chwirk Logo" class="img-fluid">
     <div class="container d-flex justify-content-center align-items-center">
         <div class="row mb-3">
             <div class="col">
@@ -29,12 +29,28 @@
         <button class="btn mb-3 btn-secondary rounded btn-block btn-lg" href="#">Login</button> 
     </div>
     <div class="row">
-        <a class="btn text-light mb-3" href="#">Forgot Password?</a> 
+        <button onclick="toggleForgotPassword()" class="btn text-light mb-3" href="#">Forgot Password?</button> 
+    </div>
+</div>
+<!-- Forgot Password Dropdown -->
+<div class="d-flex justify-content-center align-items-center container text-light">
+    <div class="row">
+        <div class="col">
+            <span id="secquest1" class="hidden">security question 1</span>
+        </div>
+    </div>
+</div>
+<div class="d-flex justify-content-center align-items-center container text-light">
+    <div class="row">
+        <div class="col">
+            <span id="secquest2" class="hidden">security question 2</span>
+        </div>
     </div>
 </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>    
 </body>
 </html>
